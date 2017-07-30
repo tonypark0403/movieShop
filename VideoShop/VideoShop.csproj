@@ -182,12 +182,21 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201707291624540_initial.cs" />
-    <Compile Include="Migrations\201707291624540_initial.Designer.cs">
-      <DependentUpon>201707291624540_initial.cs</DependentUpon>
+    <Compile Include="Migrations\201707300400242_initial.cs" />
+    <Compile Include="Migrations\201707300400242_initial.Designer.cs">
+      <DependentUpon>201707300400242_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707300403022_PopulateMemgershipTypes.cs" />
+    <Compile Include="Migrations\201707300403022_PopulateMemgershipTypes.Designer.cs">
+      <DependentUpon>201707300403022_PopulateMemgershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707302239056_ApplyAnnotationsToPopulateMemgershipTypes.cs" />
+    <Compile Include="Migrations\201707302239056_ApplyAnnotationsToPopulateMemgershipTypes.Designer.cs">
+      <DependentUpon>201707302239056_ApplyAnnotationsToPopulateMemgershipTypes.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -285,8 +294,14 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201707291624540_initial.resx">
-      <DependentUpon>201707291624540_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201707300400242_initial.resx">
+      <DependentUpon>201707300400242_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707300403022_PopulateMemgershipTypes.resx">
+      <DependentUpon>201707300403022_PopulateMemgershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707302239056_ApplyAnnotationsToPopulateMemgershipTypes.resx">
+      <DependentUpon>201707302239056_ApplyAnnotationsToPopulateMemgershipTypes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

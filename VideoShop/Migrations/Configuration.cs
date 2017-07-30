@@ -1,20 +1,18 @@
-using VideoShop.Models;
-
-namespace VideoShop.Migrations
+namespace Vidly.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<ApplicationDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<VideoShop.Models.ApplicationDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(ApplicationDbContext context)
+        protected override void Seed(VideoShop.Models.ApplicationDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

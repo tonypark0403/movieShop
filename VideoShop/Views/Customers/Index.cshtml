@@ -26,6 +26,7 @@ else
         <thead>
             <tr>
                 <th>Customer</th>
+                <th>Discount Rate</th>
             </tr>
         </thead>
         <tbody>
@@ -33,6 +34,12 @@ else
             {
                 <tr>
                     <td>@Html.ActionLink(customer.Name, "Details", "Customers", new { id = customer.Id }, null)</td>
+                    @*
+                        It will cause the error due to no included MembershipType in the controller
+                        System.NullReferenceException: Object reference not set to an instance of an object.
+                        So eager loading is needed 
+                    *@
+                    <td>@customer.MembershipType.DiscountRate%</td>
                 </tr>
             }
         </tbody>
