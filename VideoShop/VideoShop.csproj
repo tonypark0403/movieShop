@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vidly</RootNamespace>
-    <AssemblyName>Vidly</AssemblyName>
+    <RootNamespace>VideoShop</RootNamespace>
+    <AssemblyName>VideoShop</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -182,17 +182,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201707300400242_initial.cs" />
-    <Compile Include="Migrations\201707300400242_initial.Designer.cs">
-      <DependentUpon>201707300400242_initial.cs</DependentUpon>
+    <Compile Include="Migrations\201707310012477_Initial.cs" />
+    <Compile Include="Migrations\201707310012477_Initial.Designer.cs">
+      <DependentUpon>201707310012477_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201707300403022_PopulateMemgershipTypes.cs" />
-    <Compile Include="Migrations\201707300403022_PopulateMemgershipTypes.Designer.cs">
-      <DependentUpon>201707300403022_PopulateMemgershipTypes.cs</DependentUpon>
+    <Compile Include="Migrations\201707310013165_insertDatatoTables.cs" />
+    <Compile Include="Migrations\201707310013165_insertDatatoTables.Designer.cs">
+      <DependentUpon>201707310013165_insertDatatoTables.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201707302239056_ApplyAnnotationsToPopulateMemgershipTypes.cs" />
-    <Compile Include="Migrations\201707302239056_ApplyAnnotationsToPopulateMemgershipTypes.Designer.cs">
-      <DependentUpon>201707302239056_ApplyAnnotationsToPopulateMemgershipTypes.cs</DependentUpon>
+    <Compile Include="Migrations\201707310023168_InsertToMovies.cs" />
+    <Compile Include="Migrations\201707310023168_InsertToMovies.Designer.cs">
+      <DependentUpon>201707310023168_InsertToMovies.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -284,6 +284,7 @@
     <Content Include="Scripts\jquery-3.1.1.min.map" />
     <None Include="Views\Customers\Details.cshtml" />
     <None Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
     <None Include="Views\Movies\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -294,14 +295,14 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201707300400242_initial.resx">
-      <DependentUpon>201707300400242_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201707310012477_Initial.resx">
+      <DependentUpon>201707310012477_Initial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201707300403022_PopulateMemgershipTypes.resx">
-      <DependentUpon>201707300403022_PopulateMemgershipTypes.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201707310013165_insertDatatoTables.resx">
+      <DependentUpon>201707310013165_insertDatatoTables.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201707302239056_ApplyAnnotationsToPopulateMemgershipTypes.resx">
-      <DependentUpon>201707302239056_ApplyAnnotationsToPopulateMemgershipTypes.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201707310023168_InsertToMovies.resx">
+      <DependentUpon>201707310023168_InsertToMovies.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

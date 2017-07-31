@@ -7,13 +7,13 @@ namespace VideoShop.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class PopulateMemgershipTypes : IMigrationMetadata
+    public sealed partial class insertDatatoTables : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(PopulateMemgershipTypes));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(insertDatatoTables));
         
         string IMigrationMetadata.Id
         {
-            get { return "201707300403022_PopulateMemgershipTypes"; }
+            get { return "201707310013165_insertDatatoTables"; }
         }
         
         string IMigrationMetadata.Source

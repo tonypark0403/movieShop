@@ -1,9 +1,9 @@
-namespace Vidly.Migrations
+namespace VideoShop.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class ApplyAnnotationsToPopulateMemgershipTypes : DbMigration
+    public partial class Initial : DbMigration
     {
         public override void Up()
         {
