@@ -33,7 +33,7 @@ else
             @foreach (var customer in Model)
             {
                 <tr>
-                    <td>@Html.ActionLink(customer.Name, "Details", "Customers", new { id = customer.Id }, null)</td>
+                    <td>@Html.ActionLink(customer.Name, "Edit", "Customers", new { id = customer.Id }, null)</td>
                     @*
                         It will cause the error due to no included MembershipType in the controller
                         System.NullReferenceException: Object reference not set to an instance of an object.
